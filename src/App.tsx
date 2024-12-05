@@ -1,7 +1,8 @@
 import { AccountSelector } from './components/AccountSelector'
+import { Account } from './types'
 
 function App() {
-  const accounts = [
+  const accounts: Account[] = [
     {
       id: "1",
       type: "checking",
